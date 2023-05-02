@@ -1,0 +1,107 @@
+﻿body, h1, h2, p {
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #eee;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    /* Во всех элементах nav примени стили 
+    к гиперссылкам внутри них*/
+
+    text-decoration: none;
+    color: #eee;
+    display: inline-block;
+    padding: 2px 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #000;
+    border: 2px solid #ddd;
+    transition: transform 0.5s, border-color 0.3s;
+}
+
+a img {
+    width: 40px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.iconup:hover {
+    border-color: yellow;
+}
+
+.iconup:active {
+    transform: scale(1.015) ;
+}
+
+main {
+    padding: 10px 0 80px 0;
+    background-color: #eee;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+}
+
+article {
+    text-align: center;
+}
+
+.planet {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+.planet img {
+    width: 200px;
+    height: 200px;
+
+    object-fit: cover;
+}
+
+.planet p {
+    background-color: white;
+}
+
+.planet:active {
+    transform: scale(1.2);
+}
+
+.earth {
+    position: relative;
+}
+
+footer {
+    background-color: #333;
+    bottom: 0;
+}
+.socition {
+
+
+}
+.main p {
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
